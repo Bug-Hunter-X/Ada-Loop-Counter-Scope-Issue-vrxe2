@@ -1,0 +1,2 @@
+This example demonstrates a common error in Ada programming where the loop counter's scope is misunderstood. After exiting the loop prematurely, attempting to use the loop counter 'I' outside its scope yields incorrect results.
+The solution modifies the code to check for the presence of the value within the loop itself and avoids using the loop counter after exiting the loop.
